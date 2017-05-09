@@ -1,0 +1,207 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Blog
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="text-center clearfix">
+                <span class="blog_button">Latest News</span>
+            </div>
+            <ul class="timeline">
+                <li class="wow fadeInLeft animated" style="visibility: visible;">
+                    <div class="timeline-badge danger"><i class="fa fa-pencil"></i></div>
+                    <div class="timeline-panel">
+                        <div class="blog-carousel">
+                            <div class="entry">
+                                <img src="{{ asset('learnpiano/images/nhpblog.jpg') }}" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                    <div class="buttons">
+                                        <a class="st" rel="bookmark" href="blog-single-sidebar.html"><i class="fa fa-link"></i></a>
+                                    </div><!-- end buttons -->
+                                </div><!-- end magnifier -->
+                                <div class="post-type">
+                                    <i class="fa fa-picture-o"></i>
+                                </div><!-- end pull-right -->
+                            </div><!-- end entry -->
+                            <div class="blog-carousel-header">
+                                <h3><a title="" href="blog-single-sidebar.html">Nairobi Horns Project Concert</a></h3>
+                                <div class="blog-carousel-meta">
+                                    <span><i class="fa fa-calendar"></i> April 01, 2014</span>
+                                    <span><i class="fa fa-comment"></i> <a href="#">03 Comments</a></span>
+                                    <span><i class="fa fa-eye"></i> <a href="#">84 Views</a></span>
+                                </div><!-- end blog-carousel-meta -->
+                            </div><!-- end blog-carousel-header -->
+                            <div class="blog-carousel-desc">
+                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vel faucibus nunc, et venenatis magna. In hac habitasse platea dictumst. </p>
+                            </div><!-- end blog-carousel-desc -->
+                        </div><!-- end blog-carousel -->
+                    </div>
+                </li>
+                <li class="timeline-inverted wow fadeInRight animated" style="visibility: visible;">
+                    <div class="timeline-badge danger"><i class="fa fa-pencil"></i></div>
+                    <div class="timeline-panel">
+                        <div class="blog-carousel">
+                            <div class="entry">
+                                <img src="{{ asset('learnpiano/images/jazzfest.jpg') }}" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                    <div class="buttons">
+                                        <a class="st" rel="bookmark" href="blog-single-sidebar.html"><i class="fa fa-link"></i></a>
+                                    </div><!-- end buttons -->
+                                </div><!-- end magnifier -->
+                                <div class="post-type">
+                                    <i class="fa fa-picture-o"></i>
+                                </div><!-- end pull-right -->
+                            </div><!-- end entry -->
+                            <div class="blog-carousel-header">
+                                <h3><a title="" href="blog-single-sidebar.html">Safaricom Jazz Festival</a></h3>
+                                <div class="blog-carousel-meta">
+                                    <span><i class="fa fa-calendar"></i> April 01, 2014</span>
+                                    <span><i class="fa fa-comment"></i> <a href="#">03 Comments</a></span>
+                                    <span><i class="fa fa-eye"></i> <a href="#">84 Views</a></span>
+                                </div><!-- end blog-carousel-meta -->
+                            </div><!-- end blog-carousel-header -->
+                            <div class="blog-carousel-desc">
+                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vel faucibus nunc, et venenatis magna. In hac habitasse platea dictumst. </p>
+                            </div><!-- end blog-carousel-desc -->
+                        </div><!-- end blog-carousel -->
+                    </div>
+                </li>
+                <li class="wow fadeInLeft animated" style="visibility: visible;">
+                    <div class="timeline-badge danger"><i class="fa fa-music"></i></div>
+                    <div class="timeline-panel">
+                        <div class="blog-carousel">
+                            <div class="entry">
+                                <iframe class="soundcloud" height="166" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143789978&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
+                                <div class="post-type">
+                                    <i class="fa fa-music"></i>
+                                </div><!-- end pull-right -->
+                            </div><!-- end entry -->
+                            <div class="blog-carousel-header">
+                                <h3><a title="" href="blog-single-sidebar.html">Here We Go Again</a></h3>
+                                <div class="blog-carousel-meta">
+                                    <span><i class="fa fa-calendar"></i> April 01, 2014</span>
+                                    <span><i class="fa fa-comment"></i> <a href="#">03 Comments</a></span>
+                                    <span><i class="fa fa-eye"></i> <a href="#">84 Views</a></span>
+                                </div><!-- end blog-carousel-meta -->
+                            </div><!-- end blog-carousel-header -->
+                            <div class="blog-carousel-desc">
+                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vel faucibus nunc, et venenatis magna. In hac habitasse platea dictumst. </p>
+                            </div><!-- end blog-carousel-desc -->
+                        </div><!-- end blog-carousel -->
+                    </div>
+                </li>
+                <li class="timeline-inverted wow fadeInRight animated" style="visibility: visible;">
+                    <div class="timeline-badge danger"><i class="fa fa-play"></i></div>
+                    <div class="timeline-panel">
+                        <div class="blog-carousel">
+                            <div class="entry">
+                                <div class="fluid-width-video-wrapper" style="padding-top: 56.2%;"><iframe class="vimeo_video" src="http://player.vimeo.com/video/72960194?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" id="fitvid272440" __idm_id__="164190209"></iframe></div>
+                                <div class="post-type">
+                                    <i class="fa fa-play"></i>
+                                </div><!-- end pull-right -->
+                            </div><!-- end entry -->
+                            <div class="blog-carousel-header">
+                                <h3><a title="" href="blog-single-sidebar.html">A Video Post Type</a></h3>
+                                <div class="blog-carousel-meta">
+                                    <span><i class="fa fa-calendar"></i> April 01, 2014</span>
+                                    <span><i class="fa fa-comment"></i> <a href="#">03 Comments</a></span>
+                                    <span><i class="fa fa-eye"></i> <a href="#">84 Views</a></span>
+                                </div><!-- end blog-carousel-meta -->
+                            </div><!-- end blog-carousel-header -->
+                            <div class="blog-carousel-desc">
+                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vel faucibus nunc, et venenatis magna. In hac habitasse platea dictumst. </p>
+                            </div><!-- end blog-carousel-desc -->
+                        </div><!-- end blog-carousel -->
+                    </div>
+                </li>
+                <li class="wow fadeInLeft animated" style="visibility: visible;">
+                    <div class="timeline-badge danger"><i class="fa fa-camera"></i></div>
+                    <div class="timeline-panel">
+                        <div class="blog-carousel">
+                            <div class="entry">
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: block; z-index: 1; opacity: 0;" class=""><img src="demos/blog_03.png" alt="" class="img-responsive" draggable="false"></li>
+                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: block; z-index: 2; opacity: 1;" class="flex-active-slide"><img src="demos/blog_02.png" alt="" class="img-responsive" draggable="false"></li>
+                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: block; z-index: 1; opacity: 0;" class=""><img src="demos/blog_01.png" alt="" class="img-responsive" draggable="false"></li>
+                                    </ul><!-- end slides -->
+                                    <ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div><!-- end post-slider -->
+                                <div class="post-type">
+                                    <i class="fa fa-camera"></i>
+                                </div><!-- end pull-right -->
+                            </div><!-- end entry -->
+                            <div class="blog-carousel-header">
+                                <h3><a title="" href="blog-single-sidebar.html">Hi there, I am slider post type</a></h3>
+                                <div class="blog-carousel-meta">
+                                    <span><i class="fa fa-calendar"></i> April 01, 2014</span>
+                                    <span><i class="fa fa-comment"></i> <a href="#">03 Comments</a></span>
+                                    <span><i class="fa fa-eye"></i> <a href="#">84 Views</a></span>
+                                </div><!-- end blog-carousel-meta -->
+                            </div><!-- end blog-carousel-header -->
+                            <div class="blog-carousel-desc">
+                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vel faucibus nunc, et venenatis magna. In hac habitasse platea dictumst. </p>
+                            </div><!-- end blog-carousel-desc -->
+                        </div><!-- end blog-carousel -->
+                    </div>
+                </li>
+                <li class="timeline-inverted wow fadeInRight animated" style="visibility: visible;">
+                    <div class="timeline-badge danger"><i class="fa fa-quote-left"></i></div>
+                    <div class="timeline-panel">
+                        <div class="blog-carousel">
+                            <div class="entry">
+                                <div class="quote-post">
+                                    <blockquote>
+                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <small>
+                                            Someone famous in
+                                            <cite title="Source Title">John DOE</cite>
+                                        </small>
+                                    </blockquote>
+                                </div><!-- end quote-post -->
+                                <div class="post-type">
+                                    <i class="fa fa-quote-right"></i>
+                                </div><!-- end pull-right -->
+                            </div><!-- end entry -->
+                            <div class="blog-carousel-header">
+                                <h3><a title="" href="blog-single-sidebar.html">This is a quote post</a></h3>
+                                <div class="blog-carousel-meta">
+                                    <span><i class="fa fa-calendar"></i> April 01, 2014</span>
+                                    <span><i class="fa fa-comment"></i> <a href="#">03 Comments</a></span>
+                                    <span><i class="fa fa-eye"></i> <a href="#">84 Views</a></span>
+                                </div><!-- end blog-carousel-meta -->
+                            </div><!-- end blog-carousel-header -->
+                            <div class="blog-carousel-desc">
+                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vel faucibus nunc, et venenatis magna. </p>
+                            </div><!-- end blog-carousel-desc -->
+                        </div><!-- end blog-carousel -->
+                    </div>
+                </li>
+            </ul>
+
+            <div class="clearfix"></div>
+
+            <hr>
+
+            <div class="pagination_wrapper text-center">
+                <!-- Pagination Normal -->
+                <ul class="pagination">
+                    <li><a href="#">«</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">»</a></li>
+                </ul>
+            </div><!-- end pagination_wrapper -->
+        </div><!-- end content -->
+    </div>
+
+
+
+
+{% endblock %}

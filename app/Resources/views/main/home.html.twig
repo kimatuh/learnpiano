@@ -1,0 +1,378 @@
+{% extends 'base.html.twig' %}
+{% block title %}{% endblock %}
+{% block body %}
+
+    <section class="slider-wrapper">
+
+        <div class="tp-banner-container">
+            <div class="tp-banner" >
+                <ul>
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                        <img src="{{ asset('learnpiano/images/site1.jpg') }}"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <div class="tp-caption high_title customin customout start"
+                             data-x="left" data-hoffset="100"
+                             data-y="60"
+                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-speed="1000"
+                             data-start="500"
+                             data-easing="Back.easeInOut"
+                        </div>
+                        <div class="tp-caption mini_title customin customout start"
+                             data-x="left" data-hoffset="330"
+                             data-y="290"
+                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-speed="1000"
+                             data-start="900"
+                             data-easing="Back.easeInOut"
+                             data-endspeed="300"><span>MUSIC</span> FOR <span>EVERYONE</span>
+                        </div>
+                        <div class="tp-caption customin customout"
+                             data-x="left" data-hoffset="100"
+                             data-y="150"
+                             data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-speed="800"
+                             data-start="700"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="500"
+                             data-endeasing="Power4.easeIn"
+                             style="z-index: 3"><img src="{{ asset('learnpiano/images/sliderlogo_01.png') }}" alt="">
+                        </div>
+                        <div class="tp-caption small_title  customin customout start"
+                             data-x="center" data-hoffset="0"
+                             data-y="430"
+                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-speed="1600"
+                             data-start="1100"
+                             data-easing="Back.easeInOut"
+                             data-endspeed="300"><a href="{{ path('teacher') }}" class="btn btn-primary btn-lg">Book a Lesson</a>
+                        </div>
+                    </li>
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                <img src="{{ asset('learnpiano/images/site2.jpg') }}"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <div class="tp-caption high_title customin customout start"
+                     data-x="left" data-hoffset="100"
+                     data-y="60"
+                     data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                     data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                     data-speed="1000"
+                     data-start="500"
+                     data-easing="Back.easeInOut"
+        </div>
+        <div class="tp-caption mini_title customin customout start"
+             data-x="left" data-hoffset="330"
+             data-y="290"
+             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+             data-speed="1000"
+             data-start="900"
+             data-easing="Back.easeInOut"
+             data-endspeed="300"><span>WE</span> Love <span>TEACHING</span>
+        </div>
+        <div class="tp-caption customin customout"
+             data-x="left" data-hoffset="100"
+             data-y="150"
+             data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+             data-speed="800"
+             data-start="700"
+             data-easing="Power4.easeOut"
+             data-endspeed="500"
+             data-endeasing="Power4.easeIn"
+             style="z-index: 3"><img src="{{ asset('learnpiano/images/sliderlogo_01.png') }}" alt="">
+        </div>
+        <div class="tp-caption small_title  customin customout start"
+             data-x="center" data-hoffset="0"
+             data-y="330"
+             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+             data-speed="1600"
+             data-start="1100"
+             data-easing="Back.easeInOut"
+             data-endspeed="300"><a href="{{path('teacher')}}" class="btn btn-primary btn-lg">Book a Lesson</a>
+        </div>
+        </li>
+
+        <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+            <img src="{{ asset('learnpiano/images/site3.jpg') }}"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+            <div class="tp-caption high_title customin customout start"
+                 data-x="left" data-hoffset="100"
+                 data-y="60"
+                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                 data-speed="1000"
+                 data-start="500"
+                 data-easing="Back.easeInOut"
+            </div>
+            <div class="tp-caption mini_title customin customout start"
+                 data-x="left" data-hoffset="330"
+                 data-y="290"
+                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                 data-speed="1000"
+                 data-start="900"
+                 data-easing="Back.easeInOut"
+                 data-endspeed="300"><span>MUSIC</span> FOR <span>EVERYONE</span>
+            </div>
+            <div class="tp-caption customin customout"
+                 data-x="left" data-hoffset="100"
+                 data-y="150"
+                 data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                 data-speed="800"
+                 data-start="700"
+                 data-easing="Power4.easeOut"
+                 data-endspeed="500"
+                 data-endeasing="Power4.easeIn"
+                 style="z-index: 3"><img src="{{ asset('learnpiano/images/sliderlogo_01.png') }}" alt="">
+            </div>
+            <div class="tp-caption small_title  customin customout start"
+                 data-x="center" data-hoffset="0"
+                 data-y="330"
+                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                 data-speed="1600"
+                 data-start="1100"
+                 data-easing="Back.easeInOut"
+                 data-endspeed="300"><a href="{{ path('teacher') }}" class="btn btn-primary btn-lg">Book a Lesson</a>
+            </div>
+        </li>
+    </section><!-- end slider-wrapper -->
+
+    <section class="white-wrapper">
+        <div class="container">
+            <div class="general-title">
+                <h2>Latest Products</h2>
+                <hr>
+                <p class="lead">We provide best shopping items for your clients</p>
+            </div><!-- end general title -->
+
+            <div class="shop_wrapper padding-top">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 first">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="{{ asset('learnpiano/images/shop_01.jpg') }}" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st btn btn-default" rel="bookmark" href="shop-cart.html">Add to Cart</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="shop-single-sidebar.html"><span>Neo Flannel Shirt</span></a>
+                                <span class="cats"><a href="#">Shirts</a>, <a href="#">mens</a></span>
+                            </div>
+                        	<span class="price pull-right">
+                            	$120.00
+							</span>
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-3 -->
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="{{ asset('learnpiano/images/shop_02.jpg') }}" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st btn btn-default" rel="bookmark" href="shop-cart.html">Add to Cart</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="shop-single-sidebar.html"><span>Neo Flannel Shirt</span></a>
+                                <span class="cats"><a href="#">Shirts</a>, <a href="#">mens</a></span>
+                            </div>
+                        	<span class="price pull-right">
+                            	$120.00
+							</span>
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-3 -->
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="{{ asset('learnpiano/images/shop_03.jpg') }}" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st btn btn-default" rel="bookmark" href="shop-cart.html">Add to Cart</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="shop-single-sidebar.html"><span>Neo Flannel Shirt</span></a>
+                                <span class="cats"><a href="#">Shirts</a>, <a href="#">mens</a></span>
+                            </div>
+                        	<span class="price pull-right">
+                            	$120.00
+							</span>
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-3 -->
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 last">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="{{ asset('learnpiano/images/shop_04.jpg') }}" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st btn btn-default" rel="bookmark" href="shop-cart.html">Add to Cart</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="shop-single-sidebar.html"><span>Neo Flannel Shirt</span></a>
+                                <span class="cats"><a href="#">Shirts</a>, <a href="#">mens</a></span>
+                            </div>
+                        	<span class="price pull-right">
+                            	$120.00
+							</span>
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-3 -->
+            </div><!-- end shop-wrapper -->
+
+            <div class="clearfix"></div>
+
+            <div class="buttons padding-top text-center">
+                <a href="shop1.html" class="btn btn-primary btn-lg" title="">Shop More</a>
+            </div>
+        </div><!-- end container -->
+    </section><!-- end white-wrapper -->
+
+    <section class="grey-wrapper jt-shadow">
+        <div class="container">
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                <div class="widget">
+                    <h3>WHY <span>JOLLYANY</span> IS SIMPLE & VERY POWERFUL?</h3>
+                    <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
+                    <div id="accordion-first" class="clearfix">
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                        <em class="fa fa-plus icon-fixed-width"></em>Jollyany is fully responsive and perfectly fits on any Mobile device.
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                        <em class="fa fa-plus icon-fixed-width"></em>Jollyany is automatically creates retina ready images.
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                        <em class="fa fa-plus icon-fixed-width"></em>Jollyany contains 365 Retina Ready Font Awesome icons.
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                        <em class="fa fa-plus icon-fixed-width"></em>Jollyany is Powerful Admin Panel
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor...
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end accordion -->
+                    </div><!-- end accordion first -->
+                </div><!-- end widget -->
+            </div><!-- end col-lg-6 -->
+
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <div class="widget">
+                    <h3>OUR <span>POWERFUL</span> SKILLS!</h3>
+                    <div id="skills" class="skills_bar">
+                        <small>Adobe Photoshop</small>
+                        <div class="progress wow slideInLeft">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="skill_count">90%</span>
+                            </div>
+                        </div><!-- end progress -->
+                        <small>HTML5 & CSS3</small>
+                        <div class="progress wow slideInLeft">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <span class="skill_count">80%</span>
+                            </div>
+                        </div><!-- end progress -->
+                        <small>WordPress</small>
+                        <div class="progress wow slideInLeft">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                <span class="skill_count">90%</span>
+                            </div>
+                        </div><!-- end progress -->
+                        <small>Customer Support</small>
+                        <div class="progress wow slideInLeft">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="skill_count">90%</span>
+                            </div>
+                        </div><!-- end progress -->
+                        <small>Shopify Design</small>
+                        <div class="progress wow slideInLeft">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+                                <span class="skill_count">80%</span>
+                            </div>
+                        </div><!-- end progress -->
+                    </div><!-- end skills_bar -->
+                </div><!-- end widget -->
+            </div><!-- end col-lg-6 -->
+        </div><!-- end container -->
+    </section><!-- end grey-wrapper -->
+
+    <section id="one-parallax" class="parallax" style="background-image: url('demos/parallax_01.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        <div class="custom-overlay">
+            <div class="container">
+                <div class="testimonial-widget">
+                    <div id="owl-testimonial" class="owl-carousel">
+                        <div class="testimonial">
+                            <p class="lead">Gorgeous, just gorgeous I love this theme. The nicest theme I ever worked with and I have worked with hundreds<br>
+                                of them. Thanks for beautiful work, keep it up!</p>
+                            <h3>Filiz ÖZER - Jolly Themes</h3>
+                        </div><!-- end tweet -->
+                        <div class="testimonial">
+                            <p class="lead">Gorgeous, just gorgeous I love this theme. The nicest theme I ever worked with and I have worked with hundreds<br>
+                                of them. Thanks for beautiful work, keep it up!</p>
+                            <h3>John DOE - Jolly Themes</h3>
+                        </div><!-- end tweet -->
+                        <div class="testimonial">
+                            <p class="lead">Gorgeous, just gorgeous I love this theme. The nicest theme I ever worked with and I have worked with hundreds of them. Thanks for beautiful work, keep it up!</p>
+                            <h3>James Watson - Envato</h3>
+                        </div><!-- end tweet -->
+                    </div><!-- end owl-testimonial -->
+                </div><!-- end testimonial widget -->
+            </div><!-- end container -->
+        </div><!-- end overlay -->
+    </section><!-- end transparent-bg -->
+
+
+{% endblock %}

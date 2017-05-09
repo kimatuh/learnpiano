@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Classes
+{% endblock %}
+
+{% block body %}
+
+
+    <section class="white-wrapper">
+        <div class="container">
+            <div class="general-title">
+                <h2>Classes</h2>
+                <hr>
+            </div><!-- end general title -->
+        </div><!-- end container -->
+
+        <div class="portfolio_wrapper padding-top">
+            <div class="portfolio_item photography">
+                <div class="entry">
+                    <img src="{{ asset('learnpiano/images/kids.jpg') }}" alt="" class="img-responsive">
+                    <div class="magnifier">
+                        <div class="buttons">
+                            <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">Book a Lesson</a>
+                            <h3>Kids</h3>
+                        </div><!-- end buttons -->
+                    </div><!-- end magnifier -->
+                </div><!-- end entry -->
+            </div><!-- end portfolio_item -->
+
+            <div class="portfolio_item photography app-design">
+                <div class="entry">
+                    <img src="{{ asset('learnpiano/images/Teens.jpg') }}" alt="" class="img-responsive">
+                    <div class="magnifier">
+                        <div class="buttons">
+                            <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">Book a Lesson</a>
+                            <h3>Teens</h3>
+                        </div><!-- end buttons -->
+                    </div><!-- end magnifier -->
+                </div><!-- end entry -->
+            </div><!-- end portfolio_item -->
+
+            <div class="portfolio_item app-design">
+                <div class="entry">
+                    <img src="{{ asset('learnpiano/images/Adults.jpg') }}" alt="" class="img-responsive">
+                    <div class="magnifier">
+                        <div class="buttons">
+                            <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">Book a Lesson</a>
+                            <h3>Adults</h3>
+                        </div><!-- end buttons -->
+                    </div><!-- end magnifier -->
+                </div><!-- end entry -->
+            </div><!-- end portfolio_item -->
+
+            <div class="portfolio_item app-design">
+                <div class="entry">
+                    <img src="{{ asset('learnpiano/images/Private-Lessons.jpg') }}" alt="" class="img-responsive">
+                    <div class="magnifier">
+                        <div class="buttons">
+                            <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">Book a Lesson</a>
+                            <h3>Private Lessons</h3>
+                        </div><!-- end buttons -->
+                    </div><!-- end magnifier -->
+                </div><!-- end entry -->
+            </div><!-- end portfolio_item -->
+    </section><!-- end white-wrapper -->
+
+{% endblock %}
